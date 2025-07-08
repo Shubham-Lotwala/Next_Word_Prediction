@@ -8,7 +8,7 @@ from tensorflow.keras.models import load_model
 st.title("Next Word Prediction")
 
 # File paths
-model_path = "../LSTM/GRU.keras"
+model_path = "./GRU.keras"
 text_path = "shakespeare-hamlet.txt"
 
 # Load resources
